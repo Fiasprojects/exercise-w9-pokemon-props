@@ -1,4 +1,5 @@
 // Destructure pokemon types props here :)
-export const Type = () => {
-  return <div>Type</div>;
+// Type.jsx
+export const Type = ({ type }) => {
+  return <span>{type} </span>;
 };
